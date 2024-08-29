@@ -18,13 +18,29 @@
 
 <!-- Header -->
 <header class="header">
-    <a href="index.html"><div class="logo">Sky Helicopter</div></a>
-    <nav class="nav-menu">
-        <a href="#" class="tel">+77112332233</a>
-        <a href="index.html#about">О нас</a>
-        <a href="manage.html">Ответственная социальная игра</a>
-        <a href="#" class="btn-play tel">Играть</a>
-    </nav>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg">
+            <a class="navbar-brand" href="index.html">
+                <div class="logo">Sky Helicopter</div>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="toggler-icon"></span>
+                <span class="toggler-icon"></span>
+                <span class="toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
+                <ul id="nav" class="navbar-nav ml-auto">
+                    <li>+77112332233</li>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="index.html#about">О нас</a></li>
+                    <li><a href="manage.html">Ответственная социальная игра</a></li>
+                    <li><a href="#" class="btn-play">Играть</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
 </header>
 
 <section class="section">
@@ -225,6 +241,8 @@
         </div>
         <div>
             <p>Информация:</p>
+            <p><a href="policy.html" class="text-white">Политика конфиденциальности</a></p>
+            <p><a href="terms.html" class="text-white">Условия использования</a></p>
             <p><a href="rules.html" class="text-white">Правила сообщества</a></p>
             <p><a href="disclaimer.html" class="text-white">Отказ от ответственности</a></p>
             <p><a href="manage.html" class="text-white">Ответственная социальная игра</a></p>
@@ -240,6 +258,9 @@
 </footer>
 
 </body>
+<script src="js/jquery-1.12.4.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
 <script type="application/ld+json">
     {
         "@context": "https://schema.org",

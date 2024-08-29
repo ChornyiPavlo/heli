@@ -182,7 +182,9 @@ body {
   color: #111;
   font-weight: bold;
 }
-
+.navbar ul li {
+  margin: 10px;
+}
 .navbar a:hover {
   text-decoration: none;
 }
@@ -325,7 +327,9 @@ body {
   .navbar-brand img {
     width: 60px;
   }
-
+  .navbar ul li, .navbar ul li a{
+    color: #111;
+  }
   .img-about {
     width: 100% !important;
   }
